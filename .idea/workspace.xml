@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0718a482-4d5a-4c02-aa80-6795224d2c96" name="Changes" comment="Primeiro exercício de Orientação a Objetos">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="0718a482-4d5a-4c02-aa80-6795224d2c96" name="Changes" comment="Novo pacote de calculos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="36897982-c3fe-4857-b3f5-5712b6664971" />
+        <option name="url" value="https://github.com/airtonaraujo/Trilha-Java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2OZk7ommWlR5aqLIQ0BtcDJQArC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -62,12 +74,36 @@
       <option name="project" value="LOCAL" />
       <updated>1681779068268</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Aulinha de encapsulamento">
+      <created>1681948761864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681948761864</updated>
+    </task>
+    <task id="LOCAL-00004" summary="criação da Super classe (Título) e novas classes">
+      <created>1681951800879</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681951800880</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Novo pacote de calculos">
+      <created>1681952292613</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681952292613</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Primeiro exercício de Orientação a Objetos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiro exercício de Orientação a Objetos" />
+    <MESSAGE value="Aulinha de encapsulamento" />
+    <MESSAGE value="criação da Super classe (Título) e novas classes" />
+    <MESSAGE value="Novo pacote de calculos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Novo pacote de calculos" />
   </component>
 </project>

@@ -1,4 +1,6 @@
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.modelos.Filme;
+import br.com.alura.screenmatch.modelos.Serie;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,5 +20,19 @@ public class Main {
                 favorito.avalia(6.4);
 
                 System.out.println("Média de avaliações do filme: " +favorito.exibirMedia());
+
+                Serie serie = new Serie();
+                serie.setNome("The Legend of Vox Machina");
+                serie.setAnoDeLancamento(2022);
+                serie.setTemporadas(2);
+                serie.setEpisodiosPorTemporada(12);
+                serie.setMinutosPorEpisodio(22);
+                serie.exibeFichaTecnica();
+                System.out.println("Duração para maratonar " + serie.getNome() + ": " + serie.getDuracaoEmMinutos());
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.incluirTitulo(favorito);
+        calculadora.incluirTitulo(serie);
+        System.out.println(calculadora.getTempoTotal());
     }
 }
