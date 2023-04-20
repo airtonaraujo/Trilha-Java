@@ -1,3 +1,4 @@
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
@@ -27,6 +28,11 @@ public class Main {
                 serie.setEpisodiosPorTemporada(12);
                 serie.setMinutosPorEpisodio(22);
                 serie.exibeFichaTecnica();
-                System.out.println("Duração para maratonar " + serie.getNome() + " :" + serie.getDuracaoEmMinutos());
+                System.out.println("Duração para maratonar " + serie.getNome() + ": " + serie.getDuracaoEmMinutos());
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.incluirTitulo(favorito);
+        calculadora.incluirTitulo(serie);
+        System.out.println(calculadora.getTempoTotal());
     }
 }

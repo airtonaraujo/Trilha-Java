@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0718a482-4d5a-4c02-aa80-6795224d2c96" name="Changes" comment="criação da Super classe (Título) e novas classes" />
+    <list default="true" id="0718a482-4d5a-4c02-aa80-6795224d2c96" name="Changes" comment="Novo pacote de calculos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681951800880</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Novo pacote de calculos">
+      <created>1681952292613</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681952292613</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -92,6 +103,7 @@
     <MESSAGE value="Primeiro exercício de Orientação a Objetos" />
     <MESSAGE value="Aulinha de encapsulamento" />
     <MESSAGE value="criação da Super classe (Título) e novas classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="criação da Super classe (Título) e novas classes" />
+    <MESSAGE value="Novo pacote de calculos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Novo pacote de calculos" />
   </component>
 </project>
