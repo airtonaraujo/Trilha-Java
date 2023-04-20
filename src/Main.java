@@ -1,3 +1,5 @@
+import br.com.alura.screenmatch.modelos.Filme;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -5,10 +7,10 @@ public class Main {
 
                 Filme favorito = new Filme();
 
-                favorito.nome = "Dungeons & Dragons: Honra Entre Rebeldes";
-                favorito.anoDeLancamento = 2023;
-                favorito.duracaoEmMinutos = 134;
-                favorito.incluidoNoPlano = true;
+                favorito.setNome("Dungeons & Dragons: Honra Entre Rebeldes");
+                favorito.setAnoDeLancamento(2023);
+                favorito.setDuracaoEmMinutos(134);
+                favorito.setIncluidoNoPlano(true);
 
                 favorito.exibeFichaTecnica();
                 favorito.avalia(9);
