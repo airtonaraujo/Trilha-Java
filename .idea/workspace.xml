@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0718a482-4d5a-4c02-aa80-6795224d2c96" name="Changes" comment="Novo pacote de calculos">
+    <list default="true" id="0718a482-4d5a-4c02-aa80-6795224d2c96" name="Changes" comment="classe episodio com getters and setters">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/FiltroDeRecomendacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +28,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -43,14 +47,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681952292613</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="novos metodos da calculadora">
+      <created>1681953714648</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681953714648</updated>
+    </task>
+    <task id="LOCAL-00007" summary="classe episodio com getters and setters">
+      <created>1682027541494</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682027541494</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -104,6 +122,8 @@
     <MESSAGE value="Aulinha de encapsulamento" />
     <MESSAGE value="criação da Super classe (Título) e novas classes" />
     <MESSAGE value="Novo pacote de calculos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Novo pacote de calculos" />
+    <MESSAGE value="novos metodos da calculadora" />
+    <MESSAGE value="classe episodio com getters and setters" />
+    <option name="LAST_COMMIT_MESSAGE" value="classe episodio com getters and setters" />
   </component>
 </project>
