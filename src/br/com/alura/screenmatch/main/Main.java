@@ -1,18 +1,19 @@
+package br.com.alura.screenmatch.main;
+
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.calculos.FiltroDeRecomendacao;
 import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
         //Exercício de Java Orientado a Objetos do curso "Java aplicando orientação a objetos"
 
-                Filme favorito = new Filme();
-
-                favorito.setNome("Dungeons & Dragons: Honra Entre Rebeldes");
-                favorito.setAnoDeLancamento(2023);
+                Filme favorito = new Filme("Dungeons & Dragons: Honra Entre Rebeldes", 2023);
                 favorito.setDuracaoEmMinutos(134);
                 favorito.setIncluidoNoPlano(true);
 
@@ -23,9 +24,7 @@ public class Main {
 
                 System.out.println("Média de avaliações do filme: " +favorito.exibirMedia());
 
-                Serie serie = new Serie();
-                serie.setNome("The Legend of Vox Machina");
-                serie.setAnoDeLancamento(2022);
+                Serie serie = new Serie("The Legend of Vox Machina", 2022);
                 serie.setTemporadas(2);
                 serie.setEpisodiosPorTemporada(12);
                 serie.setMinutosPorEpisodio(22);
@@ -45,5 +44,17 @@ public class Main {
         episodio.setSerie(serie);
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
+
+        var hungerGames = new Filme("The Hunger Games", 2012);
+        hungerGames.setDuracaoEmMinutos(142);
+        hungerGames.avalia(9);
+
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(hungerGames);
+        listaDeFilmes.add(favorito);
+        System.out.println("Tamanho da lista: " +listaDeFilmes.size());
+        System.out.println("Primeiro filme: " +listaDeFilmes.get(0));
+        System.out.println(listaDeFilmes);
+
     }
 }
